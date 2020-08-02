@@ -1,0 +1,43 @@
+{
+  "_from": "sjb-geometry",
+  "_id": "sjb-geometry@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-ci3kSfwr0nIrYY9wFQNPCNgbUBElcnXga66eS7T/ss0/HOSICoHs0zBPqz62Qbv0svr84s4+E04GoEoXv0JHXg==",
+  "_location": "/sjb-geometry",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "sjb-geometry",
+    "name": "sjb-geometry",
+    "escapedName": "sjb-geometry",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/sjb-geometry/-/sjb-geometry-1.0.5.tgz",
+  "_shasum": "ee0b9e75caa3e7a74a970db8da24f693d1f45658",
+  "_spec": "sjb-geometry",
+  "_where": "D:\\Node",
+  "author": "",
+  "bundleDependencies": false,
+  "dependencies": {
+    "sjb-physics": "^1.0.5",
+    "sjb-utils": "^1.0.12"
+  },
+  "deprecated": false,
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "sjb-geometry",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "version": "1.0.6"
+}
