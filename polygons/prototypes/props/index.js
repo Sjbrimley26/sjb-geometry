@@ -10,6 +10,7 @@ import midpoints from "./midpoints.js";
 import normals from "./normals.js";
 import bottom from "./bottom.js";
 import regularPerimeter from "./regularPerimeter.js";
+import triangles from "./triangles.js";
 
 export {
   area,
@@ -23,5 +24,6 @@ export {
   midpoints,
   normals,
   bottom,
-  regularPerimeter
+  regularPerimeter,
+  triangles
 };

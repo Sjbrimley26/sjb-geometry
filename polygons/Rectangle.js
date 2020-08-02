@@ -3,6 +3,7 @@ import Circle from "./Circle.js";
 import { divide } from "sjb-utils/Math.js";
 import IrregularPolygon from "./prototypes/IrregularPolygon.js";
 import { rotatePoint } from "../actions/index.js";
+import triangles from "./prototypes/props/triangles.js"
 
 function Rectangle({ center, length, width }) {
   IrregularPolygon.call(this, { center, sides: 4 });
@@ -122,7 +123,9 @@ Object.defineProperties(Rectangle.prototype, {
     get: function() {
       return this.center.y + this.length / 2;
     }
-  }
+  },
+
+  ...triangles
 });
 
 Rectangle.of = ({ center, length, width }) => new Rectangle({ center, length, width })

@@ -101,6 +101,8 @@ triangle.midpoints // returns an Array of Points at the center of each edge
 triangle.circumcircle // returns a new Circle, the smallest circle that can contain the shape.
 
 triangle.inscribedCircle // returns a new Circle, the largest circle that can fit within the shape.
+
+triangle.triangles // this one doesn't make much sense with a triangle, but this property returns a Float32 Array of Point coords which can be used with WebGL to render the shape
 ```
 
 All Polygons can also be rotated, like so: `triangle.rotation = 180`. Now when you call `triangle.vertices` it will return the points rotated by that amount around the center of the polygon.

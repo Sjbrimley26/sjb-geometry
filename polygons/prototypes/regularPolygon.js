@@ -6,7 +6,8 @@ import {
   regularApothem,
   vertices,
   bottom,
-  regularPerimeter
+  regularPerimeter,
+  triangles
 } from "./props/index.js";
 
 function RegularPolygon({ center, sides, sideLength }) {
@@ -24,6 +25,7 @@ Object.defineProperties(RegularPolygon.prototype, {
   ...regularApothem,
   ...vertices,
   ...bottom,
+  ...triangles,
 });
 
 export default RegularPolygon;
